@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+/* Inicio Top 100 */
+
+#top-cem {
+    margin: 5px;
+    font-size: 40px;
+    color: cyan;
+    text-shadow: 2px 4px 6px gray;
+    float: left;
+    position: absolute;
+    left: 30%;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+#top-cem:hover {
+    text-shadow: 4px 8px 12px gray;
+    font-size: 45px;
+    left: 26%;
+}
+
+/* Fim Top 100 */
+
+/* Inicio Crazy do lado do logo */
+
+#crazy {
+    line-height: 120px;
+    margin: 5px;
+    font-size: 40px;
+    color: cyan;
+    text-shadow: 2px 4px 6px gray;
+    float: left;
+    font-family: 'Creepster', system-ui;
+    position: absolute;
+    left: 8.5%;
+    bottom: 0%;
+}
+
+/* Fim Crazy do lado do logo */
+
+#crazy:hover {
+    text-shadow: 4px 8px 12px gray;
+    font-size: 45px;
+}
+
+/* Inicio Biblioteca */
+
+#biblioteca {
+    margin: 5px;
+    font-size: 15px;
+    color: white;
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 12.5%;
+}
+
+/* Fim Biblioteca */

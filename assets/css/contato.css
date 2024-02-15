@@ -1,0 +1,204 @@
+html, body {
+    background-image: url(../img/agua.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+
+}
+
+/* Início do cabeçalho */
+
+#cabecalho {
+    margin: 5px;
+    height: 120px;
+    width: 97%;
+    display: flex;
+    justify-content:  space-between;
+    border: solid 1px black;
+    background-color: black;
+    float: left;
+    position:relative;
+    top: 0% 
+}
+
+#logo-crazy {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: inline;
+    line-height: 120px;
+}
+
+#perfil {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: absolute;
+    display: inline;
+    line-height: 120px;
+    right: 0.5%;
+    bottom: 0%;
+}
+
+#procurar {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: absolute;
+    display: inline;
+    line-height: 120px;
+    right: 10%;
+    bottom: 0%;
+}
+
+/* Fim do cabeçalho */
+
+/* Início da Navegação */
+
+
+#esquerda {
+    margin: 5px;
+    height: 92%;
+    width: 100px;
+    border: solid 1px black;
+    background-color: black;
+    box-shadow: 2px 3px 4px cyan;
+    float: left;
+    position: relative;
+    left: 0% auto;
+    top: 10% auto;
+    overflow-y: auto;
+}
+
+/* Fim da Navegação */
+
+/* Início do Rodapé */
+
+#rodape {
+    margin: 5px;
+    height: 100px;
+    width: 88%;
+    border: solid 1px black;
+    background-color: black;
+    float: left;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    right: 0 auto;
+}
+
+#logo-steam {
+    float: bottom;
+    position: absolute;
+    margin: 5px;
+    bottom: 9%;
+}
+
+
+#logo-steam:hover {
+    box-shadow: 2px 4px 6px white;
+    border-radius: 100%;
+    height: 72px;
+    width: 72px;
+}
+
+/* Fim do Rodapé */
+
+/* Inicio Main */
+
+/* Inicio Contain */
+
+#contain {
+    margin: 5px;
+    width: 88%;
+    height: 700px;
+    background-color: black;
+    float: left;
+    position: relative;
+}
+
+/* Fim Contain */
+
+/* Inicio Section */
+
+#contato {
+    background-color: black;
+    width: 80%;
+    height: 80%;
+    float: left;
+    position: absolute;
+    left: calc(50% - 80% / 2);
+    top: calc(50% - 80% / 2);
+    text-align: center;
+    color: cyan;
+    border: 10px double cyan;
+    box-shadow: 5px 5px 5px paleturquoise;
+}
+
+#contato:hover {
+    box-shadow: 10px 10px 10px paleturquoise;
+}
+
+/* Fim Section */
+
+/* instagram */
+
+#instagram {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    float: left;
+    position: absolute;
+    left: 0%;
+    top:calc(20% - 150px / 2);
+}
+
+#instagram:hover {
+    height: 180px;
+    width: 180px;
+    box-shadow: 5px 5px 5px rgb(150, 53, 150);
+    border-radius: 35%;
+}
+
+/* gmail */
+
+#gmail {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    float: top;
+    position: absolute;
+    left:calc(50% - 150px / 2);
+    top:calc(20% - 150px / 2);
+}
+
+#gmail:hover {
+    height: 180px;
+    width: 180px;
+    box-shadow: 5px 5px 5px lightskyblue;
+}
+
+/* Linkedin */
+
+#linkedin {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    float: right;
+    position: absolute;
+    right: 0%;
+    top:calc(20% - 150px / 2);
+}
+
+#linkedin:hover {
+    height: 180px;
+    width: 180px;
+    box-shadow: 5px 5px 5px lightskyblue;
+    border-radius: 12%;
+}
+
+/* Fim Main */

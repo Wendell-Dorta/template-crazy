@@ -1,0 +1,11 @@
+html {
+    background-color: black;
+}
+
+#jogos {
+    height: 500px;   
+    width: 500px;
+    background-color: black;
+    float: right;
+    position: relative;
+}

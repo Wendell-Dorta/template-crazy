@@ -1,0 +1,35 @@
+ul {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+    bottom: 0%;
+}
+
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 5px;
+    border: 1px solid cyan;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+
+* html ul li { 
+    float: bottom; 
+}
+
+* html ul li a { 
+    height: 1%; 
+}
+
+/* End */
+
+ul li:hover {
+    border: 2px solid cyan;
+    box-shadow: 5px 5px 5px cyan;
+}
